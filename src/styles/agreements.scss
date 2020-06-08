@@ -1,0 +1,57 @@
+.agreements-page-content {
+  position: relative;
+  background-image: url(../images/Release-Logs-Imgs/release-logs-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  .header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #001319;
+
+    img {
+      margin-top: 30px;
+    }
+
+    h1 {
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-weight: 300;
+    }
+  }
+
+  .agreements-content {
+    padding: 50px 0px;
+    background: #001319;
+
+    .agreements {
+      h2 {
+        font-size: 1.3rem;
+        font-weight: 200;
+        letter-spacing: 5px;
+        margin-bottom: 40px;
+      }
+
+      p {
+        color: rgrgb(107, 107, 107);
+        font-size: 0.9rem;
+
+        span {
+          font-weight: 500;
+        }
+      }
+
+      a {
+        color: red;
+      }
+
+      ul {
+        margin-left: 15px;
+      }
+    }
+  }
+}

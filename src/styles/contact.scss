@@ -1,0 +1,65 @@
+$baseColor: #ff8400;
+$Secondary: #24586c;
+
+.contact-page-content {
+  position: relative;
+  background-image: url(../images/Release-Logs-Imgs/release-logs-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  .header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #001319;
+
+    img {
+      margin-top: 30px;
+    }
+
+    h1 {
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-weight: 300;
+    }
+  }
+
+  .contact-content {
+    padding: 50px 0px;
+    background: #001319;
+
+    .contact {
+      max-width: 850px;
+      margin: auto;
+      border-bottom: 1px solid $Secondary;
+
+      h2 {
+        font-size: 2rem;
+        font-weight: 200;
+        letter-spacing: 5px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+      }
+
+      p {
+        color: rgb(199, 199, 199);
+        font-size: 1rem;
+
+        span {
+          font-weight: 500;
+        }
+      }
+
+      a {
+        color: rgb(182, 0, 0);
+      }
+
+      ul {
+        margin-left: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+$baseColor: #ff8400;
+
+.purchase-btns-container {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  .purchase-btn {
+    width: 120px;
+    height: 45px;
+    background: $baseColor;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 70%;
+    }
+  }
+}

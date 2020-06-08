@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h6 {
+  text-transform: uppercase;
+  font-weight: 200;
+  color: rgb(202, 0, 0);
+  font-size: 1rem;
+  letter-spacing: 2px;
+  position: relative;
+}
+
+h6::before {
+  content: "";
+  width: 100%;
+  max-width: 300px;
+  position: absolute;
+  left: -15px;
+  bottom: -5px;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    #cd4534 10%,
+    rgba(205, 69, 52, 0) 100%
+  );
+}
+h6::after {
+  content: "";
+  width: 100%;
+  max-width: 300px;
+  position: absolute;
+  left: -15px;
+  bottom: -8px;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    #cd4534 10%,
+    rgba(205, 69, 52, 0) 100%
+  );
+}
+
+.pc-btn {
+  background: #cd4534;
+  width: 50px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 7px 2px 0px 2px;
+  margin: 0px 10px;
+
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+}
+.ps4-btn {
+  background: #41626c;
+  width: 70px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 7px 2px 0px 2px;
+  margin: 0px 10px;
+
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+}
+.xbox-btn {
+  background: #008000;
+  width: 90px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 7px 2px 0px 2px;
+  margin: 0px 10px;
+
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+}

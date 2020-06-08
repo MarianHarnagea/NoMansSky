@@ -1,0 +1,100 @@
+.release-logs-page-content {
+  position: relative;
+  background-image: url(../images/Release-Logs-Imgs/release-logs-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  .header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #001319;
+
+    img {
+      margin-top: 30px;
+    }
+
+    h1 {
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-weight: 300;
+    }
+  }
+
+  .release-logs-content {
+    padding: 50px 0px;
+    background: #001319;
+
+    a {
+      text-decoration: none;
+      z-index: 10;
+
+      .log-title {
+        h1 {
+          font-weight: 200;
+          font-size: 1.7rem;
+          text-transform: uppercase;
+          letter-spacing: 4px;
+        }
+      }
+      .log-preview {
+        p {
+          font-size: 0.9rem;
+          line-height: 1.5rem;
+          max-width: 700px;
+        }
+      }
+    }
+
+    .log-bg-exo,
+    .log-bg-living-ship,
+    .log-bg-synthesis,
+    .log-bg-beyond {
+      background-image: url(../images/Release-Logs-Imgs/exo-mech-release-log.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      min-height: 500px;
+      @media (min-width: 1440px) {
+        min-height: 600px;
+      }
+
+      .log-cover {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 0;
+        transition: 0.2s ease;
+      }
+    }
+    .log-bg-living-ship {
+      background-image: url(../images/Release-Logs-Imgs/living-ship-release-log.jpg);
+    }
+    .log-bg-synthesis {
+      background-image: url(../images/Release-Logs-Imgs/synthesis-release-log.jpg);
+    }
+    .log-bg-beyond {
+      background-image: url(../images/Release-Logs-Imgs/beyond-release-log.jpg);
+    }
+
+    .log-bg-exo:hover .log-cover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    .log-bg-living-ship:hover .log-cover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    .log-bg-synthesis:hover .log-cover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    .log-bg-beyond:hover .log-cover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+  }
+}
