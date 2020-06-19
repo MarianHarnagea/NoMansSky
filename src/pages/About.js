@@ -10,7 +10,7 @@ function About() {
       <div className="container about-content pb-5">
         <div className="header text-center pt-5 pb-5">
           <h1>About</h1>
-          <img src={HeadingBorderCenter}></img>
+          <img alt="" src={HeadingBorderCenter}></img>
         </div>
 
         <div className="section-content">
@@ -30,7 +30,7 @@ function About() {
 
         <div className="section-content">
           <h2>No Man’s Sky is a truly open universe</h2>
-          <img src={HeadingBorderCenter}></img>
+          <img alt="" src={HeadingBorderCenter}></img>
           <p>
             Whether a distant mountain or a planet hanging low on the horizon,
             you can go there. You can fly seamlessly from the surface of a
@@ -53,7 +53,7 @@ function About() {
 
         <div className="section-content">
           <h2>Exploration is seeing things no one has ever seen before</h2>
-          <img src={HeadingBorderCenter}></img>
+          <img alt="" src={HeadingBorderCenter}></img>
           <p>
             Explore uncharted solar systems and catalogue unique new forms of
             life. Every planet’s landscape is different from the next, and
@@ -81,7 +81,7 @@ function About() {
 
         <div className="section-content">
           <h2>Survive on a dangerous frontier</h2>
-          <img src={HeadingBorderCenter}></img>
+          <img alt="" src={HeadingBorderCenter}></img>
 
           <p>
             Every solar system, planet, ocean and cave is filled with danger,
@@ -108,7 +108,7 @@ function About() {
 
         <div className="section-content">
           <h2>Build for an epic journey</h2>
-          <img src={HeadingBorderCenter}></img>
+          <img alt="" src={HeadingBorderCenter}></img>
           <p>
             Whether you want to explore and see things never before discovered,
             or directly set course for the centre of the galaxy, how you play No
@@ -126,12 +126,12 @@ function About() {
 
         <div className="galery text-center">
           <h2>Screenshots</h2>
-          <img src={HeadingBorderCenter}></img>
+          <img alt="" src={HeadingBorderCenter}></img>
         </div>
 
         <div className="section-content">
           <h2>Community</h2>
-          <img src={HeadingBorderCenter}></img>
+          <img alt="" src={HeadingBorderCenter}></img>
 
           <p>
             If you want to discuss the game, consider visiting{" "}
@@ -142,7 +142,7 @@ function About() {
 
         <div className="section-content">
           <h2>The team</h2>
-          <img src={HeadingBorderCenter}></img>
+          <img alt="" src={HeadingBorderCenter}></img>
           <p>
             No Man’s Sky is being developed by <a href="/about"> Hello Games</a>
             , a tiny indie studio in Guildford, UK. We previously made the Joe
@@ -152,7 +152,7 @@ function About() {
         </div>
 
         <div className="section-content pt-5">
-          <img src={ESRB}></img>
+          <img alt="" src={ESRB}></img>
         </div>
       </div>
     </div>

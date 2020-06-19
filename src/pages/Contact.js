@@ -7,7 +7,7 @@ export default function Contact() {
     <div className="contact-page-content">
       <div className="container header text-center pt-5 pb-5">
         <h1>Contact</h1>
-        <img src={HeadingBorderCenter}></img>
+        <img alt="" src={HeadingBorderCenter}></img>
       </div>
 
       <div className="container contact-content pl-3 pr-3">

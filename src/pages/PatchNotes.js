@@ -26,7 +26,7 @@ function PatchNotes() {
     <div>
       <div className="patch-notes-hero">
         <div className="hero-banner">
-          <img src={HeroBanner}></img>
+          <img alt="" src={HeroBanner}></img>
         </div>
       </div>
 
@@ -36,7 +36,7 @@ function PatchNotes() {
             <div className="text-content">
               <h1>EXO MECH: INTRODUCING UPDATE 2.4</h1>
 
-              <img src={HeadingBorderCenter}></img>
+              <img alt="" src={HeadingBorderCenter}></img>
               <p>
                 Soar and stomp across the landscape with the{" "}
                 <span>Exo Mech </span>
@@ -69,7 +69,7 @@ function PatchNotes() {
             <div className="text-content">
               <h1>THE MINOTAUR</h1>
 
-              <img src={HeadingBorderCenter}></img>
+              <img alt="" src={HeadingBorderCenter}></img>
               <p>
                 The Minotaur Heavy Exocraft Hybrid is an
                 <span> all-new way to explore planets.</span> This advanced
@@ -79,19 +79,19 @@ function PatchNotes() {
             </div>
 
             <div className="media-content">
-              <img src={Minotaur}></img>
+              <img alt="" src={Minotaur}></img>
             </div>
 
             <div className="media-content mt-4">
               <div className="row">
                 <div className="col-6 col-md-4">
-                  <img src={Minotaur1}></img>
+                  <img alt="" src={Minotaur1}></img>
                 </div>
                 <div className="col-6 col-md-4">
-                  <img src={Minotaur2}></img>
+                  <img alt="" src={Minotaur2}></img>
                 </div>
                 <div className="col-6 col-md-4 mt-4 mt-md-0 ml-auto mr-auto">
-                  <img src={Minotaur3}></img>
+                  <img alt="" src={Minotaur3}></img>
                 </div>
               </div>
             </div>
@@ -105,7 +105,7 @@ function PatchNotes() {
             <div className="text-content">
               <h1>IMMERSIVE COCKPIT</h1>
 
-              <img src={HeadingBorderCenter}></img>
+              <img alt="" src={HeadingBorderCenter}></img>
               <p>
                 Power your way through storms in the unique and compact interior
                 of your new Minotaur mechanical walker. Steer, stride and leap
@@ -123,14 +123,14 @@ function PatchNotes() {
 
       <div className="main-bg-patch-4">
         <div className="media-content">
-          <img src={TopBgPatch4}></img>
+          <img alt="" src={TopBgPatch4}></img>
         </div>
         <div className="patch-4 ">
           <div className="container pt-4 pb-4">
             <div className="text-content">
               <h1>EXPANDED EXPLORATION ABILITIES</h1>
 
-              <img src={HeadingBorderCenter}></img>
+              <img alt="" src={HeadingBorderCenter}></img>
               <p>
                 The Minotaur is <span>immune to all planetary hazards</span> and
                 is able to <span>directly collect valuable materials</span>,
@@ -164,7 +164,7 @@ function PatchNotes() {
             <div className="text-content">
               <h1>NEW EXOCRAFT TECHNOLOGIES</h1>
 
-              <img src={HeadingBorderCenter}></img>
+              <img alt="" src={HeadingBorderCenter}></img>
               <p>
                 Exocraft can now be upgraded with <span>solar panels </span>
                 to recharge their engines during daylight.
@@ -184,7 +184,7 @@ function PatchNotes() {
             <div className="text-content">
               <h1>IMPROVED EXOCRAFT SCANNING</h1>
 
-              <img src={HeadingBorderCenter}></img>
+              <img alt="" src={HeadingBorderCenter}></img>
               <p>
                 All Exocraft equipped with the Signal Booster necessary to
                 perform scans will now find that their scan
@@ -210,7 +210,7 @@ function PatchNotes() {
             <div className="text-content">
               <h1>NEW EXOCRAFT DECALS</h1>
 
-              <img src={HeadingBorderCenter}></img>
+              <img alt="" src={HeadingBorderCenter}></img>
               <p>
                 Players who have unlocked decals from the Quicksilver Companion
                 Robot can now use these exotic decals to{" "}
@@ -239,7 +239,7 @@ function PatchNotes() {
             <div className="text-content mt-5">
               <h1>NEW EXOCRAFT DECALS</h1>
 
-              <img src={HeadingBorderCenter}></img>
+              <img alt="" src={HeadingBorderCenter}></img>
             </div>
 
             <div className="patch-notes-content pl-2 pl-lg-4 mt-5">

@@ -15,7 +15,7 @@ function Buy() {
     <div className="buy-page-content">
       <div className="container header text-center pt-5 pb-5">
         <h1>Buy Now</h1>
-        <img src={HeadingBorderCenter}></img>
+        <img alt="" src={HeadingBorderCenter}></img>
       </div>
 
       <div className="container">
@@ -54,7 +54,7 @@ function Buy() {
 
             <div className="row">
               <div className="col-12 col-md-4 text-center">
-                <img src={RetailLogo}></img>
+                <img alt="" src={RetailLogo}></img>
               </div>
               <div className="col-12 col-md-8">
                 <div className="location">
@@ -73,18 +73,18 @@ function Buy() {
                   <div className="row">
                     <div className=" col-12">
                       <Link>
-                        <img src={LogoHumbleStore}></img>
+                        <img alt="" src={LogoHumbleStore}></img>
                       </Link>
                       <Link>
-                        <img src={LogoHumbleStore}></img>
+                        <img alt="" src={LogoHumbleStore}></img>
                       </Link>
                     </div>
                     <div className=" col-12 ml-auto">
                       <Link>
-                        <img src={LogoHumbleStore}></img>
+                        <img alt="" src={LogoHumbleStore}></img>
                       </Link>
                       <Link>
-                        <img src={LogoHumbleStore}></img>
+                        <img alt="" src={LogoHumbleStore}></img>
                       </Link>
                     </div>
                   </div>

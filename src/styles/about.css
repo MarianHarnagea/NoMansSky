@@ -69,6 +69,11 @@ body {
 
 .about-page-content .about-content .section-content img {
   margin: 20px 0px;
+  width: 170%;
+}
+
+.about-page-content .about-content .section-content img:last-child {
+  width: initial;
 }
 
 .about-page-content .about-content .section-content a {

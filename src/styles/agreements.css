@@ -1,0 +1,67 @@
+.agreements-page-content {
+  position: relative;
+  background-image: url(../images/Release-Logs-Imgs/release-logs-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.agreements-page-content .header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #001319;
+}
+
+.agreements-page-content .header img {
+  margin-top: 30px;
+  width: 170%;
+}
+
+.agreements-page-content .header h1 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.agreements-page-content .agreements-content {
+  padding: 50px 0px;
+  background: #001319;
+}
+
+.agreements-page-content .agreements-content .agreements h2 {
+  font-size: 1.3rem;
+  font-weight: 200;
+  letter-spacing: 5px;
+  margin-bottom: 40px;
+}
+
+.agreements-page-content .agreements-content .agreements p {
+  color: rgrgb(107, 107, 107);
+  font-size: 0.9rem;
+}
+
+.agreements-page-content .agreements-content .agreements p span {
+  font-weight: 500;
+}
+
+.agreements-page-content .agreements-content .agreements a {
+  color: red;
+}
+
+.agreements-page-content .agreements-content .agreements ul {
+  margin-left: 15px;
+}
+/*# sourceMappingURL=agreements.css.map */

@@ -7,7 +7,7 @@ function PrivacyPolicy() {
     <div className="privacy-page-content">
       <div className="container header text-center pt-5 pb-5">
         <h1>PRIVACY AND DATA POLICY</h1>
-        <img src={HeadingBorderCenter}></img>
+        <img alt="" src={HeadingBorderCenter}></img>
       </div>
       <div className="container privacy-content pl-3 pr-3">
         <div className="policy mb-5">

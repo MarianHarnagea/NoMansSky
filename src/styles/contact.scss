@@ -1,6 +1,10 @@
 $baseColor: #ff8400;
 $Secondary: #24586c;
 
+body {
+  overflow-x: hidden;
+}
+
 .contact-page-content {
   position: relative;
   background-image: url(../images/Release-Logs-Imgs/release-logs-bg.jpg);
@@ -18,6 +22,7 @@ $Secondary: #24586c;
 
     img {
       margin-top: 30px;
+      width: 170%;
     }
 
     h1 {

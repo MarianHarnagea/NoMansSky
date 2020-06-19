@@ -1,0 +1,78 @@
+body {
+  overflow-x: hidden;
+}
+
+.contact-page-content {
+  position: relative;
+  background-image: url(../images/Release-Logs-Imgs/release-logs-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contact-page-content .header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #001319;
+}
+
+.contact-page-content .header img {
+  margin-top: 30px;
+  width: 170%;
+}
+
+.contact-page-content .header h1 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.contact-page-content .contact-content {
+  padding: 50px 0px;
+  background: #001319;
+}
+
+.contact-page-content .contact-content .contact {
+  max-width: 850px;
+  margin: auto;
+  border-bottom: 1px solid #24586c;
+}
+
+.contact-page-content .contact-content .contact h2 {
+  font-size: 2rem;
+  font-weight: 200;
+  letter-spacing: 5px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.contact-page-content .contact-content .contact p {
+  color: #c7c7c7;
+  font-size: 1rem;
+}
+
+.contact-page-content .contact-content .contact p span {
+  font-weight: 500;
+}
+
+.contact-page-content .contact-content .contact a {
+  color: #b60000;
+}
+
+.contact-page-content .contact-content .contact ul {
+  margin-left: 15px;
+}
+/*# sourceMappingURL=contact.css.map */

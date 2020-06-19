@@ -1,0 +1,125 @@
+.release-logs-page-content {
+  position: relative;
+  background-image: url(../images/Release-Logs-Imgs/release-logs-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.release-logs-page-content .header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #001319;
+}
+
+.release-logs-page-content .header img {
+  margin-top: 30px;
+  width: 170%;
+}
+
+.release-logs-page-content .header h1 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.release-logs-page-content .release-logs-content {
+  padding: 50px 0px;
+  background: #001319;
+}
+
+.release-logs-page-content .release-logs-content a {
+  text-decoration: none;
+  z-index: 10;
+}
+
+.release-logs-page-content .release-logs-content a .log-title h1 {
+  font-weight: 200;
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.release-logs-page-content .release-logs-content a .log-preview p {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  max-width: 700px;
+}
+
+.release-logs-page-content .release-logs-content .log-bg-exo,
+.release-logs-page-content .release-logs-content .log-bg-living-ship,
+.release-logs-page-content .release-logs-content .log-bg-synthesis,
+.release-logs-page-content .release-logs-content .log-bg-beyond {
+  background-image: url(../images/Release-Logs-Imgs/exo-mech-release-log.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 500px;
+}
+
+@media (min-width: 1440px) {
+  .release-logs-page-content .release-logs-content .log-bg-exo,
+  .release-logs-page-content .release-logs-content .log-bg-living-ship,
+  .release-logs-page-content .release-logs-content .log-bg-synthesis,
+  .release-logs-page-content .release-logs-content .log-bg-beyond {
+    min-height: 600px;
+  }
+}
+
+.release-logs-page-content .release-logs-content .log-bg-exo .log-cover,
+.release-logs-page-content .release-logs-content .log-bg-living-ship .log-cover,
+.release-logs-page-content .release-logs-content .log-bg-synthesis .log-cover,
+.release-logs-page-content .release-logs-content .log-bg-beyond .log-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 0;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.release-logs-page-content .release-logs-content .log-bg-living-ship {
+  background-image: url(../images/Release-Logs-Imgs/living-ship-release-log.jpg);
+}
+
+.release-logs-page-content .release-logs-content .log-bg-synthesis {
+  background-image: url(../images/Release-Logs-Imgs/synthesis-release-log.jpg);
+}
+
+.release-logs-page-content .release-logs-content .log-bg-beyond {
+  background-image: url(../images/Release-Logs-Imgs/beyond-release-log.jpg);
+}
+
+.release-logs-page-content .release-logs-content .log-bg-exo:hover .log-cover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.release-logs-page-content .release-logs-content .log-bg-living-ship:hover .log-cover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.release-logs-page-content .release-logs-content .log-bg-synthesis:hover .log-cover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.release-logs-page-content .release-logs-content .log-bg-beyond:hover .log-cover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+/*# sourceMappingURL=releaselogs.css.map */

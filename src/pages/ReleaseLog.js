@@ -12,7 +12,7 @@ function ReleaseLog() {
     <div className="release-logs-page-content">
       <div className="container header text-center pt-5 pb-5">
         <h1>Release Logs</h1>
-        <img src={HeadingBorderCenter}></img>
+        <img alt="" src={HeadingBorderCenter}></img>
       </div>
 
       <div className="container release-logs-content">

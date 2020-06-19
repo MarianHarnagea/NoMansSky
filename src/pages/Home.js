@@ -75,7 +75,7 @@ function Home() {
               </p>
             </div>
             <div className="col-12 col-lg-6 d-lg-none">
-              <img src={BGSection3}></img>
+              <img alt="" src={BGSection3}></img>
             </div>
           </div>
         </div>
@@ -93,7 +93,7 @@ function Home() {
               </p>
             </div>
             <div className="col-12 col-lg-6 d-lg-none">
-              <img src={BGSection4}></img>
+              <img alt="" src={BGSection4}></img>
             </div>
           </div>
         </div>
@@ -112,7 +112,7 @@ function Home() {
               </p>
             </div>
             <div className="col-12 col-lg-6 d-lg-none">
-              <img src={BGSection5}></img>
+              <img alt="" src={BGSection5}></img>
             </div>
           </div>
         </div>
@@ -129,7 +129,7 @@ function Home() {
               </p>
             </div>
             <div className="col-12 col-lg-6 d-lg-none">
-              <img src={BGSection6}></img>
+              <img alt="" src={BGSection6}></img>
             </div>
           </div>
         </div>
