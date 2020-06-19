@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
+// Pages
 import Home from "./pages/Home";
 import PatchNotes from "./pages/PatchNotes";
 import Buy from "./pages/Buy";
