@@ -1,0 +1,99 @@
+body {
+  overflow-x: hidden;
+}
+
+.buy-page-content {
+  background: #001319;
+}
+
+.buy-page-content .header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buy-page-content .header img {
+  width: 170%;
+  margin-top: 30px;
+}
+
+.buy-page-content .header h1 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.buy-page-content .digital {
+  padding-left: 50px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 992px) {
+  .buy-page-content .digital {
+    border-right: 1px solid white;
+  }
+}
+
+.buy-page-content .digital h2 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+}
+
+.buy-page-content .digital h3 {
+  font-size: 1rem;
+  margin-top: 30px;
+  color: #24586c;
+}
+
+.buy-page-content .digital img {
+  margin-top: 20px;
+}
+
+.buy-page-content .retail {
+  padding-left: 50px;
+}
+
+.buy-page-content .retail h2 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+}
+
+.buy-page-content .retail img {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.buy-page-content .retail .location {
+  margin-bottom: 50px;
+}
+
+.buy-page-content .retail .location label {
+  margin-right: 40px;
+  font-size: 1.1rem;
+  color: #24586c;
+}
+
+.buy-page-content .retail .location select {
+  background: none;
+  border: none;
+  width: 70%;
+  background: black;
+  height: 30px;
+  border-bottom: 1px solid #ff8400;
+}
+/*# sourceMappingURL=buy.css.map */

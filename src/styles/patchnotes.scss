@@ -6,6 +6,10 @@ $baseColor: #ff8400;
   box-sizing: border-box;
   color: white;
 }
+
+body {
+  overflow-x: hidden;
+}
 //  Page Sections Backgrounds
 .patch-notes-hero {
   background-image: url(../images/Patch-Notes-Imgs/hero-bg.jpg);

@@ -5,6 +5,9 @@ $baseColor: #ff8400;
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  overflow-x: hidden;
+}
 .home-page-content {
   background: #001319;
 }

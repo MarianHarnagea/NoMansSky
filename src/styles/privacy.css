@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .privacy-page-content {
   position: relative;
   background-image: url(../images/Release-Logs-Imgs/release-logs-bg.jpg);

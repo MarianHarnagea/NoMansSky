@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 .release-logs-page-content {
   position: relative;
   background-image: url(../images/Release-Logs-Imgs/release-logs-bg.jpg);
