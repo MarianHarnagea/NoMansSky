@@ -1,7 +1,3 @@
-body {
-  overflow-x: hidden;
-}
-
 .release-logs-page-content {
   position: relative;
   background-image: url(../images/Release-Logs-Imgs/release-logs-bg.jpg);
@@ -9,6 +5,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  overflow-x: hidden;
   .header {
     width: 100%;
     display: flex;
@@ -16,6 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     background: #001319;
+    overflow-x: hidden;
 
     img {
       margin-top: 30px;

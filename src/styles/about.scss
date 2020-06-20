@@ -1,6 +1,3 @@
-body {
-  overflow-x: hidden;
-}
 .about-page-content {
   background-image: url(../images/About-Imgs/main-bg.jpg);
   background-repeat: no-repeat;
@@ -28,6 +25,7 @@ body {
 
   .about-content {
     background: #001319;
+    overflow-x: hidden;
 
     .section-content {
       display: flex;

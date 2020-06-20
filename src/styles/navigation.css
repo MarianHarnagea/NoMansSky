@@ -1,6 +1,5 @@
 body {
   font-family: Raleway, Helvetica, Arial, sans-serif;
-  overflow-x: hidden;
 }
 
 .navbar {
@@ -51,6 +50,10 @@ body {
 .navbar .links-container-lg ul li a {
   color: white;
   text-decoration: none;
+}
+
+.navbar .links-container-lg ul li a:focus {
+  outline: none;
 }
 
 .navbar .links-container-lg ul .link {

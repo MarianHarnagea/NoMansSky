@@ -1,9 +1,6 @@
-body {
-  overflow-x: hidden;
-}
-
 .buy-page-content {
   background: #001319;
+  overflow-x: hidden;
 }
 
 .buy-page-content .header {

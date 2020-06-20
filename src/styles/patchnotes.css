@@ -6,10 +6,6 @@
   color: white;
 }
 
-body {
-  overflow-x: hidden;
-}
-
 .patch-notes-hero {
   background-image: url(../images/Patch-Notes-Imgs/hero-bg.jpg);
   background-repeat: no-repeat;
@@ -180,6 +176,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  overflow-x: hidden;
 }
 
 .text-content h1 {

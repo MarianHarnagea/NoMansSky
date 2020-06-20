@@ -1,7 +1,5 @@
 body {
   font-family: Raleway, Helvetica, Arial, sans-serif;
-
-  overflow-x: hidden;
 }
 // Navbar
 .navbar {
@@ -34,6 +32,9 @@ body {
         a {
           color: white;
           text-decoration: none;
+          &:focus {
+            outline: none;
+          }
         }
       }
 

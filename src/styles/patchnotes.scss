@@ -7,9 +7,6 @@ $baseColor: #ff8400;
   color: white;
 }
 
-body {
-  overflow-x: hidden;
-}
 //  Page Sections Backgrounds
 .patch-notes-hero {
   background-image: url(../images/Patch-Notes-Imgs/hero-bg.jpg);
@@ -163,6 +160,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow-x: hidden;
   h1 {
     text-transform: uppercase;
     font-weight: 300;

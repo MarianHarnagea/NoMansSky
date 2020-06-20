@@ -9,6 +9,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 .privacy-page-content .header {
@@ -27,6 +28,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   background: #001319;
+  overflow-x: hidden;
 }
 
 .privacy-page-content .header img {
