@@ -16,6 +16,7 @@ import Contact from "./pages/Contact";
 import Header from "./components/navbar/Header";
 import MobileNav from "./components/navbar/MobileNav";
 import Footer from "./components/footer/Footer";
+import ScrollToTop from "./components/scrollTop/ScrollToTop";
 
 class App extends Component {
   state = {
@@ -41,6 +42,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+          <ScrollToTop />
           <Header
             sideNavClickHandeler={this.mobileNavClickHandeler}
             click={this.linkCloseNavClickHandeler}

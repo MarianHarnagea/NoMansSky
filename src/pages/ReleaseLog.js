@@ -19,7 +19,7 @@ function ReleaseLog() {
         <div className="container">
           <div className="row">
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Exo mech patch 2.42</h1>
                 </div>
@@ -39,7 +39,7 @@ function ReleaseLog() {
             </div>
 
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Exo mech patch 2.41</h1>
                 </div>
@@ -88,7 +88,7 @@ function ReleaseLog() {
 
           <div className="row mt-5">
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Living ship patch 2.34</h1>
                 </div>
@@ -109,7 +109,7 @@ function ReleaseLog() {
             </div>
 
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Living ship patch 2.33</h1>
                 </div>
@@ -130,7 +130,7 @@ function ReleaseLog() {
             </div>
 
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Living ship patch 2.32</h1>
                 </div>
@@ -151,7 +151,7 @@ function ReleaseLog() {
             </div>
 
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Living ship patch 2.31</h1>
                 </div>
@@ -173,7 +173,7 @@ function ReleaseLog() {
 
             <div className="log-bg-living-ship col-12">
               <div className="log-cover pt-5 pb-5 pl-3 pr-3">
-                <Link>
+                <Link to="/ReleaseLog">
                   <div className="log-title mb-5">
                     <h1>Living ship</h1>
                   </div>
@@ -200,7 +200,7 @@ function ReleaseLog() {
 
           <div className="row mt-5">
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Synthesis patch 2.27</h1>
                 </div>
@@ -219,7 +219,7 @@ function ReleaseLog() {
             </div>
 
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Synthesis patch 2.26</h1>
                 </div>
@@ -241,7 +241,7 @@ function ReleaseLog() {
             </div>
 
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Synthesis patch 2.25</h1>
                 </div>
@@ -262,7 +262,7 @@ function ReleaseLog() {
             </div>
 
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Synthesis patch 2.24</h1>
                 </div>
@@ -283,7 +283,7 @@ function ReleaseLog() {
             </div>
 
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Synthesis patch 2.23</h1>
                 </div>
@@ -305,7 +305,7 @@ function ReleaseLog() {
 
             <div className="log-bg-synthesis col-12">
               <div className="log-cover pt-5 pb-5 pl-3 pr-3">
-                <Link>
+                <Link to="/ReleaseLog">
                   <div className="log-title mb-5">
                     <h1>Synthesis</h1>
                   </div>
@@ -332,7 +332,7 @@ function ReleaseLog() {
 
           <div className="row mt-5 mb-5">
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Beyond patch 2.16</h1>
                 </div>
@@ -351,7 +351,7 @@ function ReleaseLog() {
             </div>
 
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Synthesis patch 2.15</h1>
                 </div>
@@ -373,7 +373,7 @@ function ReleaseLog() {
             </div>
 
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Synthesis patch 2.14</h1>
                 </div>
@@ -394,7 +394,7 @@ function ReleaseLog() {
             </div>
 
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Synthesis patch 2.13</h1>
                 </div>
@@ -415,7 +415,7 @@ function ReleaseLog() {
             </div>
 
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Synthesis patch 2.11</h1>
                 </div>
@@ -436,7 +436,7 @@ function ReleaseLog() {
             </div>
 
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Synthesis patch 2.10</h1>
                 </div>
@@ -457,7 +457,7 @@ function ReleaseLog() {
             </div>
 
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Synthesis patch 2.09</h1>
                 </div>
@@ -478,7 +478,7 @@ function ReleaseLog() {
             </div>
 
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Synthesis patch 2.08</h1>
                 </div>
@@ -498,7 +498,7 @@ function ReleaseLog() {
             </div>
 
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Synthesis patch 2.07</h1>
                 </div>
@@ -518,7 +518,7 @@ function ReleaseLog() {
             </div>
 
             <div className="col-12 col-md-6 pt-5 pb-5">
-              <Link>
+              <Link to="/ReleaseLog">
                 <div className="log-title mb-5">
                   <h1>Synthesis patch 2.06</h1>
                 </div>
@@ -538,7 +538,7 @@ function ReleaseLog() {
 
             <div className="log-bg-beyond col-12">
               <div className="log-cover pt-5 pb-5 pl-3 pr-3">
-                <Link>
+                <Link to="/ReleaseLog">
                   <div className="log-title mb-5">
                     <h1>Beyond</h1>
                   </div>
